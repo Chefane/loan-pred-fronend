@@ -1,8 +1,12 @@
 import React from 'react';
-
 import './App.css';
+import Render from './components/render';
+import mockData from './components/mockData';
 
 function App() {
+
+  
+  
   return (
     <div className="App">
       <h1>Loan Prediction Form</h1>
@@ -68,6 +72,9 @@ function App() {
 
         <button type="submit">Predict</button>
       </form>
+
+
+     <Render data-testId="list" list={mockData}/>
         
     </div>
   );
