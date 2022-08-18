@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+form {
+background-color: #282c34;
+margin:auto;
+}
+
+form label {
+  color: aliceblue;
+}
+
+form .form-input{
+  margin: auto;
+  height: 100%;
+  width: 40%;
+  display: flex;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+form button{
+  background-color: blue;
+  color: antiquewhite;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+
